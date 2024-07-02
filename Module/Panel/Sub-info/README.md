@@ -6,6 +6,7 @@
 
 ## 🌟 动态显示
 
+- ⛴️ **刷新时间**
 - 🪐 **流量使用情况、重置天数**
 - ⛴️ **套餐到期时间、剩余天数**
 
@@ -14,7 +15,7 @@
 **一、获取模块**
 
 ```
-https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/Sub-info/Moore/Sub-info.sgmodule
+https://raw.githubusercontent.com/ShenghaiRong/Surge/main/Module/Panel/Sub-info/Moore/Sub-info.sgmodule
 ```
 
 **二、 开始安装**
