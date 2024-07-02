@@ -1,6 +1,6 @@
 /**********
-* 作者：cc63&ChatGPT
-* 更新时间：2024年1月20日
+* 作者：cc63&ChatGPT&rongsh
+* 更新时间：2024年7月2日
 **********/
 
 (async () => {
@@ -36,8 +36,14 @@
     }
   }
 
+  let now = new Date();
+  let hour = now.getHours();
+  let minutes = now.getMinutes();
+  hour = hour > 9 ? hour : "0" + hour;
+  minutes = minutes > 9 ? minutes : "0" + minutes;
+  
   $done({
-    title: `${args.title}`,
+    title: `${args.title} | ${hour}:${minutes}`,
     content: content.join("\n"),
     icon: args.icon || "tornado",
     "icon-color": args.color || "#DF4688",
